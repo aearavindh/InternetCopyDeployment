@@ -4,7 +4,7 @@ pipeline {
         maven "Maven"   
     }    
     stages {
-        stage('Compile-Build-Test') {
+        stage('Compile-Build') {
             steps {
                 sh 'mvn clean package'
             }
